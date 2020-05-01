@@ -1,7 +1,7 @@
 # H6751_Group_Project
 
 ## Project Introduction
-##IntroductionIn this project, our team participant in Kaggle Competetion: REal Or Not? NLP with Disaster Tweets
+In this project, our team participant in Kaggle Competetion: REal Or Not? NLP with Disaster Tweets
 Started from a trainining set contains tweets, location data, and a label: real or not disaster.
 To preidct the disaster laebl on a given test data.
 
