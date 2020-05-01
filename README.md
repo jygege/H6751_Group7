@@ -1,7 +1,7 @@
 # H6751_Group_Project
 
-##Introduction
-In this project, our team participant in Kaggle Competetion: REal Or Not? NLP with Disaster Tweets
+## Project Introduction
+##IntroductionIn this project, our team participant in Kaggle Competetion: REal Or Not? NLP with Disaster Tweets
 Started from a trainining set contains tweets, location data, and a label: real or not disaster.
 To preidct the disaster laebl on a given test data.
 
@@ -62,10 +62,10 @@ Apart from the pre-processed tweets text data, 'word_count', 'unique_word_count'
 CounterVectorizer and TFIDFVectorizer were used for vectoring.
 
 ### Model training and validation
-1. Standalone Model training and validation
-  LogisticRegression, SVC, MultinomialNB, GradientBoostingClassifier, CatBoostClassifier are trained and validated with features from     both CounterVectorizer and TFIDFVectorizer.
-  Prediction result favours the CounterVectorizer.
+1. Standalone Model for training and validation
+LogisticRegression, SVC, MultinomialNB, GradientBoostingClassifier, CatBoostClassifier are trained and validated with features from     both CounterVectorizer and TFIDFVectorizer.
+Prediction result favours the CounterVectorizer.
 2. Ensemble Learning Model
-  Using the Ensemble learning: VotingClassifier with AdaBoostClassifer, NaiveBayesClassifer, RandomForestClassifier and     LogisticRegressionClassifer as base learners.
+Using the Ensemble learning: VotingClassifier with AdaBoostClassifer, NaiveBayesClassifer, RandomForestClassifier and     LogisticRegressionClassifer as base learners.
 
 
